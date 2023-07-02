@@ -18,7 +18,6 @@ console.log(firstLetraNomb);
 
 let firstLetraApes = apellidos.charAt(apellidos.length-1,apellidos.length);
 console.log(firstLetraApes);
-
 let notSpaces = estudiante.replace(/ /g,'');
 console.log(notSpaces);
 
