@@ -16,7 +16,7 @@ console.log(numLetras);
 let firstLetraNomb = nombres.charAt(0,1);
 console.log(firstLetraNomb);
 
-let firstLetraApes = apellidos.charAt(0,1);
+let firstLetraApes = apellidos.charAt(apellidos.length-1,apellidos.length);
 console.log(firstLetraApes);
 
 let notSpaces = estudiante.replace(/ /g,'');
@@ -24,5 +24,3 @@ console.log(notSpaces);
 
 let include = estudiante.includes(nombres);
 console.log(include)
-
-
